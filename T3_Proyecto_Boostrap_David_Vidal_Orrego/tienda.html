@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tienda - Nyxer Games</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/miscss.css'>
+    <script src='bootstrap/js/bootstrap.min.js'></script>
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand align-middle" href="index.html">
+                <img src="img/Logo.svg" class="rounded" width="50px">
+                <span class="titulo">Nyxer games</span>
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="atencionalcliente.html">Atencion al cliente</a>
+                    </li>
+                </ul>
+                <form class="d-flex search-bar">
+                    <input class="form-control me-2 search-input" type="search">
+                    <button class="btn btn-outline-success buscar" type="submit">Buscar</button>
+                </form>
+            </div>
+
+            <a href="#" class="btn btn-outline-success carritoCabecera"><img src="img/carrito.png" class="carrito "></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    </header>
+    <!-- Tabla de juegos y filtros -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Tabla de juegos -->
+            <div class="col-md-8">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Nombre del Juego</th>
+                            <th>Precio</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="Juego.html" class="juego">The Witcher 3: Wild Hunt</a></td>
+                            <td>$29.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Red Dead Redemption 2</a></td>
+                            <td>$49.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">FC24</a></td>
+                            <td>$59.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Assassin's Creed Valhalla</a></td>
+                            <td>$39.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Horizon Zero Dawn</a></td>
+                            <td>$19.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">God of War</a></td>
+                            <td>$39.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Halo Infinite</a></td>
+                            <td>$59.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Katamari</a></td>
+                            <td>$49.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Uncharted 4: A Thief's End</a></td>
+                            <td>$29.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Ghost of Tsushima</a></td>
+                            <td>$49.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">The Witcher 3: Wild Hunt</a></td>
+                            <td>$29.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Red Dead Redemption 2</a></td>
+                            <td>$49.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">FC24</a></td>
+                            <td>$59.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Assassin's Creed Valhalla</a></td>
+                            <td>$39.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Horizon Zero Dawn</a></td>
+                            <td>$19.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">God of War</a></td>
+                            <td>$39.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Halo Infinite</a></td>
+                            <td>$59.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Katamari</a></td>
+                            <td>$49.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Uncharted 4: A Thief's End</a></td>
+                            <td>$29.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="juego">Ghost of Tsushima</a></td>
+                            <td>$49.99</td>
+                            <td><a href="#"><img src="img/carrito.png" alt="Añadir al carrito"
+                                        class="carrito carrito2"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <button class="btn btn-primary d-block d-md-none mb-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
+                Mostrar filtros
+            </button>
+            <!-- Filtros no funcional -->
+            <div class="col-md-4 collapse" id="filterCollapse">
+                <h4>Filtros</h4>
+                <!-- Filtro de rango de precios -->
+                <div class="mb-3">
+                    <label for="priceRange" class="form-label">Rango de precios:</label>
+                    <input type="range" class="form-range">
+                </div>
+
+                <!-- Filtro de descuentos -->
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label" for="discountCheck">Mostrar solo con descuentos</label>
+                </div>
+
+                <!-- Filtro de generos -->
+                <div class="mb-3">
+                    <label for="genreSelect" class="form-label">Género:</label>
+                    <select class="form-select">
+                        <option value="accion">Acción</option>
+                        <option value="aventura">Aventura</option>
+                    </select>
+                </div>
+
+                <!-- Filtro de plataformas -->
+                <div class="mb-3">
+                    <label for="platformSelect" class="form-label">Plataforma:</label>
+                    <select class="form-select">
+                        <option value="pc">PC</option>
+                        <option value="consola">Consola</option>
+                    </select>
+                </div>
+
+                <!-- Filtro de clasificacion -->
+                <div class="mb-3">
+                    <label for="ratingSelect" class="form-label">Clasificación:</label>
+                    <select class="form-select">
+                        <option value="everyone">Everyone</option>
+                        <option value="teen">Teen</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4 filtros-grandes">
+                <h4>Filtros</h4>
+                <!-- Filtro de rango de precios -->
+                <div class="mb-3">
+                    <label for="priceRange" class="form-label">Rango de precios:</label>
+                    <input type="range" class="form-range">
+                </div>
+
+                <!-- Filtro de descuentos -->
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label" for="discountCheck">Mostrar solo con descuentos</label>
+                </div>
+
+                <!-- Filtro de generos -->
+                <div class="mb-3">
+                    <label for="genreSelect" class="form-label">Género:</label>
+                    <select class="form-select">
+                        <option value="accion">Acción</option>
+                        <option value="aventura">Aventura</option>
+                    </select>
+                </div>
+
+                <!-- Filtro de plataformas -->
+                <div class="mb-3">
+                    <label for="platformSelect" class="form-label">Plataforma:</label>
+                    <select class="form-select">
+                        <option value="pc">PC</option>
+                        <option value="consola">Consola</option>
+                    </select>
+                </div>
+
+                <!-- Filtro de clasificacion -->
+                <div class="mb-3">
+                    <label for="ratingSelect" class="form-label">Clasificación:</label>
+                    <select class="form-select">
+                        <option value="everyone">Everyone</option>
+                        <option value="teen">Teen</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start">
+                    <h5>Información de contacto</h5>
+                    <p>Dirección: Av el cantillo, Huelva, España</p>
+                    <p>Teléfono: +644 53 67 15</p>
+                    <p>Email: NyxerGamesContacta@gmail.com</p>
+                    <a href="atencionalcliente.html">Formulario atencion al cliente</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/LogoConLetras.svg" class="rounded" width="100px" style="margin-top: 15%;">
+                </div>
+                <div class="col-md-4 d-none d-md-block text-center">
+                    <h5>Redes sociales</h5>
+                    <ul>
+                        <li><img src="img/Instagram_icon.png" class="carrito"> <a
+                                href="https://www.instagram.com/">NyxerGames</a></li><br>
+                        <li><img src="img/2021_Facebook_icon.png" class="carrito"> <a
+                                href="https://www.facebook.com">NyxerGames</a></li><br>
+                        <li><img src="img/twitter_logo.png" class="carrito"> <a
+                                href="https://twitter.com">NyxerGames</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <p>&copy; Nyxer</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

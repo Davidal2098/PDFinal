@@ -1,0 +1,244 @@
+// Variables
+$primary: #f2f2f2;
+$secondary: #ffb963;
+$letras: #590e1c;
+$button: #eb7f52;
+
+// Bootstrap
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/root";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+
+// Estilos personalizados
+body {
+    color: $letras;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: $secondary !important;
+}
+
+header .nav-link,
+span {
+    color: $letras !important;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: $button !important;
+    border-color: $button !important;
+}
+
+.btn {
+    background-color: $button !important;
+    border-color: $button !important;
+    color: $letras !important;
+}
+
+/* Footer */
+footer {
+    background-color: $secondary;
+    color: $letras !important;
+}
+
+footer a {
+    color: $letras;
+}
+
+footer a:hover {
+    color: $primary;
+}
+
+.micarrusel {
+    object-fit: cover;
+}
+
+.carrito {
+    width: 25px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carritoCabecera {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.buscar {
+    margin-right: 5px;
+}
+
+.btn-primary:hover {
+    background-color: darken($button, 10%) !important;
+}
+
+.form-control,
+.form-select {
+    border-color: $secondary;
+}
+
+footer hr {
+    width: 50%;
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none;
+    color: $secondary;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/* Estilos para listas */
+ul {
+    list-style: none;
+
+    li {
+        margin-bottom: 5px;
+    }
+}
+
+.scrolling-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.card {
+    display: inline-block;
+    margin-right: 10px;
+    /* Espacio entre las tarjetas */
+}
+
+.card {
+    width: 20rem;
+    /* Tamaño reducido para dispositivos móviles */
+    margin-right: 5px;
+    /* Espacio más reducido entre tarjetas */
+}
+
+.scrolling-wrapper {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+/* Estilos para tablas */
+.table {
+    th {
+        background-color: $secondary;
+        color: $primary;
+    }
+
+    td {
+        border-color: $secondary;
+    }
+}
+
+@media (max-width: 768px) {
+    #carouselExampleCaptions.carousel-fade {
+        width: 100vw !important;
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-input {
+        margin-right: 15px;
+    }
+
+    /* Oculta la descripción de videojuegos en dispositivos móviles */
+    .game-description {
+        display: none;
+    }
+
+    .cesta,
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .titulo {
+        display: none !important;
+    }
+
+    .scrolling-wrapper {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .card {
+        width: 100%;
+        justify-self: center;
+    }
+
+    .filtros-grandes {
+        display: none;
+    }
+}
+
+.carrito2 {
+    border-radius: 0%;
+    transition: all 0.5s linear;
+}
+
+.carrito2:hover {
+    background-color: $button;
+    border-radius: 70%;
+}
+
+.carritojuego {
+    width: 100px;
+    margin: 2px;
+    padding:  2px;
+    background-color: $button;
+    border-radius: 10%;
+    transition: all 0.5s linear;
+}
+
+.carritojuego:hover {
+    background-color: $secondary;
+    border-radius: 10%;
+}
+
+.juego{
+    color: black;
+    transition: all 0.2s linear;
+}
+
+.juego:hover{
+    color: $secondary ;
+    font-size:17px;
+}
+
+.carruseljuegos{
+    padding: 0;
+    
+}

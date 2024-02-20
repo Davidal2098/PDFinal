@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Inicio - Nyxer Games</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='bootstrap/css/bootstrap.min.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='style/miscss.css'>
+	<script src='bootstrap/js/bootstrap.js'></script>
+</head>
+
+<body>
+	<!-- Cabecera -->
+	<header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand align-middle" href="index.html">
+                <img src="img/Logo.svg" class="rounded" width="50px">
+                <span class="titulo">Nyxer games</span>
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="atencionalcliente.html">Atencion al cliente</a>
+                    </li>
+                </ul>
+                <form class="d-flex search-bar">
+                    <input class="form-control me-2 search-input" type="search">
+                    <button class="btn btn-outline-success buscar" type="submit">Buscar</button>
+                </form>
+            </div>
+
+            <a href="#" class="btn btn-outline-success carritoCabecera"><img src="img/carrito.png" class="carrito "></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    </header>
+	<!-- Información de la empresa -->
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-md-8 offset-md-2 text-center">
+				<h2>Bienvenido a Nixer Games</h2>
+				<p>Tu tienda de videojuegos al mejor precio.</p>
+				<video width="100%" height="w-75" controls>
+					<source src="movie.mp4" type="video/mp4">
+					<source src="movie.ogg" type="video/ogg">
+				  Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-md-8 offset-md-2 text-center">
+				<h5>Nuestras recomendaciones</h5>
+			</div>
+		</div>
+	</div>
+	<!-- Carrousel -->
+	<div id="carouselExampleCaptions" class="carousel slide carousel-fade w-75 m-auto" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Diapositiva 1"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+				aria-label="Diapositiva 2"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+				aria-label="Diapositiva 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<!-- Contenido del carrusel -->
+			<div class="carousel-item active" data-bs-interval="3000">
+				<a href="#">
+					<img src="img/carrusel2.jpg" alt="Imagen baldurs gate 3"
+						class="bd-placeholder-img bd-placeholder-img-lg d-block w-100">
+					<div class="carousel-caption text-end">
+						<a href="#" class="btn btn-outline-success cesta">49.99€<img src="img/carrito.png"
+								class="carrito" alt="Añadir al carrito"></a>
+					</div>
+				</a>
+			</div>
+			<div class="carousel-item" data-bs-interval="3000">
+				<a href="#">
+					<img src="img/carrusel1.jpg" alt="Imagen A hat in time"
+						class="bd-placeholder-img bd-placeholder-img-lg d-block w-100">
+					<div class="carousel-caption text-end">
+						<a href="#" class="btn btn-outline-success cesta">59.99€<img src="img/carrito.png"
+								class="carrito" alt="Añadir al carrito"></a>
+					</div>
+				</a>
+			</div>
+			<div class="carousel-item" data-bs-interval="6000">
+				<a href="#">
+					<img src="img/carrusel3.png" alt="Imagen OneShot"
+						class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 micarrusel">
+					<div class="carousel-caption text-end">
+						<a href="#" class="btn btn-outline-success cesta">7.99€<img src="img/carrito.png"
+								class="carrito" alt="Añadir al carrito"></a>
+					</div>
+				</a>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Anterior</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Siguiente</span>
+		</button>
+	</div>
+
+	<hr>
+
+
+	<!-- Sección de contenido -->
+
+	<!-- Últimos lanzamientos -->
+	<div class="container mt-4">
+		<h2>Últimos Lanzamientos</h2>
+		<div class="row">
+			<div class="col-md-4 mb-4">
+				<div class="card">
+					<img src="img/Novedades1.png" class="card-img-top" alt="Juego 1">
+					<div class="card-body">
+						<h5 class="card-title">Avatar: Frontiers of Pandora</h5>
+						<p class="card-text game-description">Explora Pandora como un Na'vi liberado de la RDA, descubre
+							tu herencia perdida, aprende el significado de ser Na'vi y únete a clanes para proteger
+							Pandora de la amenaza de la RDA.</p>
+						<a href="#" class="btn btn-primary">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card">
+					<img src="img/Novedades2.png" class="card-img-top" alt="Juego 2">
+					<div class="card-body">
+						<h5 class="card-title">ARK: Survival Ascended</h5>
+						<p class="card-text game-description">Ark se reinventa con Unreal Engine 5: forma una tribu,
+							domestica cientos de dinosaurios y criaturas primitivas, explora, crea y lucha para llegar a
+							la cima. ¡Tu nuevo mundo te espera!</p>
+						<a href="#" class="btn btn-primary">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-4">
+				<div class="card">
+					<img src="img/Novedades3.png" class="card-img-top" alt="Juego 3">
+					<div class="card-body">
+						<h5 class="card-title">Roots of Pacha</h5>
+						<p class="card-text game-description">Explora tierras primitivas, construye una aldea duradera
+							con amigos, cultiva, domestica animales, avanza en tecnología, participa en festivales y
+							encuentra el amor para expandir tu legado.</p>
+						<a href="#" class="btn btn-primary">Ver más</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="py-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 text-center text-md-start">
+					<h5>Información de contacto</h5>
+					<p>Dirección: Av el cantillo, Huelva, España</p>
+					<p>Teléfono: +644 53 67 15</p>
+					<p>Email: NyxerGamesContacta@gmail.com</p>
+					<a href="atencionalcliente.html">Formulario atencion al cliente</a>
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="img/LogoConLetras.svg" class="rounded" width="100px" style="margin-top: 15%;">
+				</div>
+				<div class="col-md-4 d-none d-md-block text-center">
+					<h5>Redes sociales</h5>
+					<ul>
+						<li><img src="img/Instagram_icon.png" class="carrito"> <a href="https://www.instagram.com/">NyxerGames</a></li><br>
+						<li><img src="img/2021_Facebook_icon.png" class="carrito"> <a href="https://www.facebook.com">NyxerGames</a></li><br>
+						<li><img src="img/twitter_logo.png" class="carrito"> <a href="https://twitter.com">NyxerGames</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row mt-3">
+				<div class="col-md-12 text-center">
+					<p>&copy; Nyxer</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
