@@ -769,4 +769,21 @@ ul li {
 
 .carruseljuegos {
   padding: 0;
+}
+
+.imagenjuego {
+  padding: 1%;
+  animation-duration: 10s;
+  background: linear-gradient(to right, #eb7f52, #590e1c);
+  animation-name: vaYviene;
+  animation-iteration-count: infinite;
+}
+
+@keyframes vaYviene {
+  from {
+    background: linear-gradient(to right, #eb7f52, #590e1c);
+  }
+  to {
+    background: linear-gradient(to right, #590e1c, #eb7f52);
+  }
 }/*# sourceMappingURL=miscss.css.map */

@@ -240,5 +240,27 @@ ul {
 
 .carruseljuegos{
     padding: 0;
-    
+
 }
+
+.imagenjuego{
+    padding: 1%;
+    animation-duration: 10s;
+    background: linear-gradient(to right, $button, $letras);
+    animation-name: vaYviene;
+    animation-iteration-count: infinite;
+}
+
+  
+  @keyframes vaYviene {
+    from {
+        background: linear-gradient(to right, $button, $letras);
+    }
+    
+    to {
+        background: linear-gradient(to right, $letras, $button);
+    }
+  }
+
+
+  
