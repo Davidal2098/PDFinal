@@ -156,6 +156,7 @@ ul {
     }
 
     td {
+        border-bottom:1px;
         border-color: $secondary;
     }
 }
@@ -264,3 +265,25 @@ ul {
 
 
   
+@keyframes show {
+	from {
+		opacity: 0.5;
+		scale: 90%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+.datosJuego {
+    animation-name: show;
+
+	view-timeline-name: --image;
+
+	animation-timeline: --image;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
