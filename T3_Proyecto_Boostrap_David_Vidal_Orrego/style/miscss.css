@@ -773,21 +773,10 @@ ul li {
 }
 
 .imagenjuego {
-  padding: 1%;
-  animation-duration: 10s;
-  background: linear-gradient(to right, #eb7f52, #590e1c);
-  animation-name: vaYviene;
-  animation-iteration-count: infinite;
+  border: 10px;
+  border-color: #ffb963;
 }
 
-@keyframes vaYviene {
-  from {
-    background: linear-gradient(to right, #eb7f52, #590e1c);
-  }
-  to {
-    background: linear-gradient(to right, #590e1c, #eb7f52);
-  }
-}
 @keyframes show {
   from {
     opacity: 0.5;
@@ -802,6 +791,6 @@ ul li {
   animation-name: show;
   view-timeline-name: --image;
   animation-timeline: --image;
-  animation-range: entry 25% cover 30%;
+  animation-range: entry 15% cover 25%;
   animation-fill-mode: both;
 }/*# sourceMappingURL=miscss.css.map */
